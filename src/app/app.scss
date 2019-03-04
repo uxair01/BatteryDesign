@@ -572,7 +572,7 @@
       top: calc(50% - (500px/2));
       position: absolute;
       width: 600px;
-      height: 400px !important;
+      height: 350px !important;
     }
   }
   
@@ -582,7 +582,7 @@
       top: calc(50% - (600px/2));
       position: absolute;
       width: 600px;
-      height: 400px !important;
+      height: 350px !important;
     }
   }
   .modal-wrapper{
@@ -590,5 +590,8 @@
     top: calc(50% - (500px/2));
     position: absolute;
     width: 600px;
-    height: 400px !important;
+    height: 350px !important;
+  }
+  .tabs-md .tab-button[aria-selected=true]{
+      color: rgb(64, 166, 235) !important;
   }
